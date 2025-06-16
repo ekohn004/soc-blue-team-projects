@@ -28,7 +28,7 @@ This repository was created as a demonstration of hands-on SOC knowledge, incide
 ## 👤 Author
 
 [@ekohn004](https://github.com/ekohn004)  
-Aspiring SOC analyst with a focus on detection engineering, triage workflows, and defensive automation.
+SOC analyst with a focus on detection engineering, triage workflows, and defensive automation.
 
 ---
 
