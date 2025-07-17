@@ -36,4 +36,4 @@ SOC analyst focused on detection engineering, triage workflows, and defensive au
 
 ## Contributions
 
-This is a personal learning and demonstration repository. Suggestions or ideas for future tools are welcome — feel free to open an issue.
+This is a personal learning and demonstration repository. Suggestions or ideas for future tools are welcome.
