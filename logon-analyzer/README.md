@@ -4,15 +4,15 @@ A lightweight Python script to analyze exported Windows Security event logs (CSV
 
 ---
 
-## 🔍 Detection Logic
+## Detection Logic
 
-- 💻 **RDP Logons (Type 10)**  
-- 🌐 **Network Logons (Type 3)** from non-loopback IPs  
-- 🕗 **After-hours logons** (outside 08:00–18:00)
+- **RDP Logons (Type 10)**  
+- **Network Logons (Type 3)** from non-loopback IPs  
+- **After-hours logons** (outside 08:00–18:00)
 
 ---
 
-## 📂 Input Format
+## Input Format
 
 This script expects a CSV file exported from Windows Event Viewer, filtered for Event ID 4624 (logon). Example fields:
 - `TimeGenerated`
@@ -24,7 +24,7 @@ See: `sample_logons.csv` for reference.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 python logon_analyzer.py
