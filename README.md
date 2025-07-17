@@ -14,9 +14,9 @@ A PowerShell script to automate the collection of forensic artifacts from Window
 
 ### `logon-analyzer`
 A Python script that parses exported Windows event logs (CSV) and flags:
-- 🕗 After-hours logons
-- 💻 RDP logons (Type 10)
-- 🌐 Network logons from external IPs  
+- After-hours logons
+- RDP logons (Type 10)
+- Network logons from external IPs  
 [Read more →](logon-analyzer/README.md)
 
 ---
