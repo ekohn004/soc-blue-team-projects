@@ -1,0 +1,5 @@
+TimeGenerated,TargetUserName,LogonType,IpAddress
+2025-07-15 02:23:01,esmith,10,203.0.113.24
+2025-07-15 14:45:00,admin,3,192.168.1.10
+2025-07-15 21:13:55,esmith,2,-
+2025-07-15 08:03:10,svc_account,3,127.0.0.1
