@@ -23,13 +23,13 @@ def analyze_logons(file_path):
                 flags = []
 
                 if is_after_hours(timestamp):
-                    flags.append("🕗 After-hours logon")
+                    flags.append("After-hours logon")
 
                 if logon_type == "10":
-                    flags.append("💻 RDP logon (Type 10)")
+                    flags.append("RDP logon (Type 10)")
 
                 if logon_type == "3" and ip_address not in ("-", "127.0.0.1"):
-                    flags.append("🌐 Network logon (Type 3)")
+                    flags.append("Network logon (Type 3)")
 
                 if flags:
                     print(f"[!] {timestamp} | {username} | IP: {ip_address} | Type: {logon_type}")
