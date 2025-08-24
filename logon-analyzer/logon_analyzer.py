@@ -10,7 +10,7 @@ def is_after_hours(timestamp):
     return hour < WORK_HOURS_START or hour >= WORK_HOURS_END
 
 def analyze_logons(file_path):
-    print(f"\n🔍 Analyzing logons from: {file_path}\n")
+    print(f"\n Analyzing logons from: {file_path}\n")
     with open(file_path, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         for row in reader:

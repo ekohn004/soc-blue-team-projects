@@ -10,7 +10,7 @@ This PowerShell script automates the collection of key artifacts useful in a Win
 - **Running processes** (sorted by CPU usage)
 - **Network connections** (`netstat`)
 - **Scheduled tasks**
-- **Currently logged-in users**
+- **Logged-on user sessions (via Get-CimInstance)**
 - **Autoruns** (if `autorunsc.exe` is available in PATH)
 
 ---

@@ -25,7 +25,7 @@ if (Get-Command autorunsc -ErrorAction SilentlyContinue) {
 }
 
 # Get recent logins
-quser | Out-File "$destination\logged_on_users.txt"
+Get-CimInstance -ClassName Win32_LoggedOnUser | Out-File "$destination\logged_on_users.txt"
 
 # Get scheduled tasks
 Get-ScheduledTask | Out-File "$destination\scheduled_tasks.txt"
@@ -34,4 +34,4 @@ Get-ScheduledTask | Out-File "$destination\scheduled_tasks.txt"
 $zipPath = "$env:USERPROFILE\Desktop\IR_Artifacts_$timestamp.zip"
 Compress-Archive -Path $destination -DestinationPath $zipPath
 
-Write-Host "`n✔️ Artifacts collected and saved to $zipPath"
+Write-Host "`nArtifacts collected and saved to $zipPath"
